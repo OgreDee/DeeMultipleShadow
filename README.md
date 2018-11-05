@@ -3,8 +3,8 @@
 使用三角形相似原理计算阴影在reciever上的xz坐标。
 ![](https://github.com/OgreDee/DeeMultipleShadow/blob/master/PlanarShadow01.gif)
 >参考:
-1.[使用顶点投射的方法制作实时阴影](https://zhuanlan.zhihu.com/p/31504088)
-2.ShaderLab开发实战详解，10.1平行光对平面的投影
+1. [使用顶点投射的方法制作实时阴影](https://zhuanlan.zhihu.com/p/31504088)
+2. ShaderLab开发实战详解，10.1平行光对平面的投影
 
 ## 2.体积阴影（待加）
 ## 3.基于ShadowTexture的阴影（待加）
