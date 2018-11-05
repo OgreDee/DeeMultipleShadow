@@ -1,6 +1,7 @@
 # DeeMultipleShadow
 ## 1.Dee_PlanerShadow 平面阴影
 ![image](https://github.com/OgreDee/DeeMultipleShadow/blob/master/PlanarShadow01.gif)
+![image](http://images2017.cnblogs.com/blog/686199/201708/686199-20170812082052304-350636820.gif)
 ## 2.体积阴影（待加）
 ## 3.基于ShadowTexture的阴影（待加）
 ## 4.基于ShadowMap的阴影（待加）
