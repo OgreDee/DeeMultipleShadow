@@ -1,6 +1,7 @@
 # DeeMultipleShadow
 ## 1.Dee_PlanerShadow 平面阴影
 ![image](https://github.com/OgreDee/DeeMultipleShadow/blob/master/PlanarShadow01.gif?imageMogr2/auto-orient/strip)
+![](http://upload-images.jianshu.io/upload_images/1372105-587750bad15322a0.gif)
 ## 2.体积阴影（待加）
 ## 3.基于ShadowTexture的阴影（待加）
 ## 4.基于ShadowMap的阴影（待加）
