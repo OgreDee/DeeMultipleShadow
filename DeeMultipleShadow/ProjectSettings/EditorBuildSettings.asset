@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/StartUp.unity
+    guid: 7e381a98f2dda47dba843cc654384676
+  - enabled: 1
+    path: Assets/Dee_PlanerShadow/Dee_ShadowPlaner.unity
+    guid: 8188786c603564deeae9a3f2803582f6
+  - enabled: 1
+    path: Assets/Dee_ShadowMap/Dee_ShadowMap.unity
+    guid: 4bba937517233438185eb755d13fcdb0
   m_configObjects: {}
