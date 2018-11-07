@@ -1,8 +1,10 @@
 # DeeMultipleShadow
 ### 1.Dee_PlanerShadow 平面阴影
 使用三角形相似原理计算阴影在reciever上的xz坐标。
-![](https://github.com/OgreDee/DeeMultipleShadow/blob/master/Movie/PlanarShadow01.gif)
 >[Demo场景](https://github.com/OgreDee/DeeMultipleShadow/blob/master/DeeMultipleShadow/Assets/Dee_PlanerShadow/Dee_ShadowPlaner.unity)
+
+![](https://github.com/OgreDee/DeeMultipleShadow/blob/master/Movie/PlanarShadow01.gif)
+
 >参考:
 1. [使用顶点投射的方法制作实时阴影](https://zhuanlan.zhihu.com/p/31504088)
 2. ShaderLab开发实战详解，10.1平行光对平面的投影
@@ -12,8 +14,10 @@
 ## 2.体积阴影（待加）
 ## 3.基于ShadowTexture的阴影（待加）
 ## 4.基于ShadowMap的阴影
-![](https://github.com/OgreDee/DeeMultipleShadow/blob/master/Movie/shadowmap01.gif)
 >[Demo场景](https://github.com/OgreDee/DeeMultipleShadow/blob/master/DeeMultipleShadow/Assets/Dee_ShadowMap/Dee_LightCamera/Dee_ShadowMap01.unity)
+
+![](https://github.com/OgreDee/DeeMultipleShadow/blob/master/Movie/shadowmap01.gif)
+
 1. 从光源的视角渲染整个场景，获得Shadow Map
 2. 实际相机渲染物体，将物体从世界坐标转换到光源视角下，与深度纹理对比数据获得阴影信息
 3. 根据阴影信息渲染场景以及阴影
