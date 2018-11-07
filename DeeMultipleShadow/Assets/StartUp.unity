@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 194190603}
   - component: {fileID: 194190602}
   m_Layer: 5
-  m_Name: ShadowMap
+  m_Name: ShadowMap01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -265,7 +265,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 542399933}
-        m_MethodName: OpenShadowMapScene
+        m_MethodName: OpenShadowMap01
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1244,7 +1244,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ShadowMap
+  m_Text: ShadowMap01
 --- !u!222 &1787546836
 CanvasRenderer:
   m_ObjectHideFlags: 0

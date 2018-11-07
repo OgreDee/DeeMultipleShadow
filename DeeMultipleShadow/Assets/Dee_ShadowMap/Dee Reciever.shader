@@ -42,10 +42,10 @@
                 float depth = i.shadowCoord.z / i.shadowCoord.w;
                 #if defined (SHADER_API_MOBILE) 
                 depth = depth*0.5 + 0.5; //(-1, 1)-->(0, 1)
-                #elif defined (UNITY_REVERSED_Z)
-                depth = 1 - depth;       //(1, 0)-->(0, 1)
+                //#elif defined (UNITY_REVERSED_Z)
+                //depth = 1 - depth;       //(1, 0)-->(0, 1)
                 #endif
-            
+                
                 //计算shadow贴图uv
                 i.shadowCoord.xy = i.shadowCoord.xy/i.shadowCoord.w;
                 float2 uv = i.shadowCoord.xy;
@@ -56,11 +56,11 @@
                 float sampleDepth = DecodeFloatRGBA(tex2D(_gShadowMapTexture, uv));
                 #endif
                 
-                float shadow = lerp(_gShadowStrength, 1, step(depth - _depthBias, sampleDepth));
+                float shadow = lerp(_gShadowStrength, 0, step(depth, sampleDepth));
                 
                 //col.rgb *= shadow;
 
-                return 1-shadow;
+                return shadow;
             }    
 
             #pragma vertex vert

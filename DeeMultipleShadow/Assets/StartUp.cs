@@ -34,9 +34,9 @@ public class StartUp : MonoBehaviour {
         LoadScene("Dee_ShadowPlaner");
     }
 
-    public void OpenShadowMapScene()
+    public void OpenShadowMap01()
     {
-        LoadScene("Dee_ShadowMap");
+        LoadScene("Dee_ShadowMap01");
     }
 
     public void Back()

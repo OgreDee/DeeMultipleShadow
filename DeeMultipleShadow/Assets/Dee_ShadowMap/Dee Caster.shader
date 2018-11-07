@@ -52,8 +52,8 @@
                 float depth = i.depth.x/i.depth.y;
             #if defined (SHADER_API_MOBILE) 
                 depth = depth*0.5 + 0.5; //(-1, 1)-->(0, 1)
-            #elif defined (UNITY_REVERSED_Z)
-                depth = 1 - depth;       //(1, 0)-->(0, 1)
+            //#elif defined (UNITY_REVERSED_Z)
+                //depth = 1 - depth;       //(1, 0)-->(0, 1)
             #endif
 
                 return EncodeFloatRGBA(depth);
